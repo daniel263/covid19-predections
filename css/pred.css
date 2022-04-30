@@ -1,0 +1,170 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Rubik,sans-serif;
+    font-weight:400 ;
+    line-height: 1.8em;
+    color: #cecedd;
+}
+.nav ul{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+.nav ul li{
+    display: inline-block;
+    margin: 0 50px;
+    line-height: 80px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color:white;
+    
+
+}
+
+.Sn{
+    text-align: justify;
+    color:white;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+.nav ul li a:hover{
+    font-weight: bold;
+   
+    letter-spacing: 2px;
+    border-bottom: 2px solid grey;
+}
+.checkbtn{
+   font-size:30px;
+   color:white;
+   float:right;
+   line-height:80px ;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+}
+#check{
+    display: none;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+  
+
+}
+@media(max-width:952px){
+    .menu .logo img{
+        size:25px ;
+        padding-left:20px;
+
+    }
+    .menu ul li a{
+        font-size:16px;
+    }
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+  
+
+}
+
+.pic1, .pic2, .pic3{
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.pic1{
+    background-image: url('../img/predic.jpg');
+    min-height:100%;
+}
+.pic2{
+    background-image: url('../img/pred.jpg');
+    min-height:100vh;
+ 
+}
+.pic3{
+    background-image: url('../images/selective-focus-photography-of-fuel-station-1381806.jpg');
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+  
+    color:black;
+}
+
+.section-dark{
+   
+    color:White;
+}
+
+.section-dark-1{
+    background-color:rgb(68, 129, 68) ;
+    color:#ddd;
+    height: 10px;
+}
+.banner-text{
+    position: absolute;
+    top:50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.banner-text  .border{
+background-color: rgba(133, 136, 134, 0.445);
+color:#fff;
+padding: 20px;
+border-radius: 10px;
+}
+.banner-text  .border.trans{
+    background-color: transparent;
+}
+.banner-text P{
+    color: white; 
+    align-items: flex-start;
+}
+@media(max-width:568px){
+    .pic1, .pic2, .pic3{
+        background-attachment:scroll;
+    }
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit);
+  
+
+}
+.kid{
+
+    background-color: rgba(133, 136, 134, 0.808);
+    color:White;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 15px;
+}
+.kid:hover{
+
+    background-color: rgba(133, 136, 134, 0.808);
+    color:White;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 15px;
+    transform: scale(1.02);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
